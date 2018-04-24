@@ -13,7 +13,7 @@ etc.
 ```
 > `func` is the function to run.
 
-> `intervalMs` is the intervals to run `func` in milliseconds.
+> `intervalMs` is the intervals to run `func` in milliseconds, `defaults: **1000**`.
 
 ## Example
 ```js
