@@ -15,4 +15,16 @@ etc.
 
 > `intervalMs` is the intervals to run `func` in milliseconds.
 
+## Example
+```js
+  holler( function(){
+    fetch( 'http://www.awesome-site.com/api/feeds', myOptions )
+      .then(function( data ) {
+        // Here you get the data to modify as you please
+      })
+      .catch(function( error ) {
+        // If there is any error you will catch them here
+      });
+  } , 2000 ); // 2000ms = 2 seconds 
+
 Thanks - [Oyedele Hammed](https://devhammed.github.io)
