@@ -12,6 +12,7 @@ etc.
   holler( func, intervalMs=1000 );
 ```
 > `func` is the function to run.
+
 > `intervalMs` is the intervals to run `func` in milliseconds.
 
 Thanks - [Oyedele Hammed](https://devhammed.github.io)
