@@ -25,6 +25,7 @@ etc.
       .catch(function( error ) {
         // If there is any error you will catch them here
       });
-  } , 2000 ); // 2000ms = 2 seconds 
+  } , 2000 ); // 2000ms = 2 seconds
+```
 
 Thanks - [Oyedele Hammed](https://devhammed.github.io)
